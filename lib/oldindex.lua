@@ -1,6 +1,7 @@
---[[-- index from indexfunctions.lua but the older version --]]--
-
-function index(tab, startIndex) -- Declares the function
+function index( -- Declares the function
+	tab, -- variableName1
+	startIndex -- variableName2
+) -- yes
 	i = 0 -- Declares a global variable named i to value 0
 	for _,v in pairs(tab) do -- Loop through all key-value pairs of table tab
 		if startIndex == 1 then -- Checks if startIndex is 1
